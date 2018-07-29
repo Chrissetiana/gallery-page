@@ -1,4 +1,4 @@
-package com.chrissetiana.gallerypage;
+package com.chrissetiana.minigallery;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.chrissetiana.gallerypage;
+package com.chrissetiana.minigallery;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
