@@ -1,9 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-</GridView>
+    <TextView
+        android:id="@+id/gallery_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_card" />
+
+    <TextView
+        android:id="@+id/gallery_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_frame" />
+
+    <TextView
+        android:id="@+id/gallery_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_grid" />
+
+    <TextView
+        android:id="@+id/gallery_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_list" />
+
+    <TextView
+        android:id="@+id/gallery_staggered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type_staggered" />
+
+</LinearLayout>
